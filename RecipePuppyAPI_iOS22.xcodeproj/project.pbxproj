@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4798A875217EDA67006ABCEB /* DetailStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4798A873217EDA67006ABCEB /* DetailStoryboard.storyboard */; };
+		4798A877217EDC82006ABCEB /* RecipeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4798A876217EDC82006ABCEB /* RecipeExtension.swift */; };
 		47C13BDB217E7C9C00C8512B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C13BDA217E7C9C00C8512B /* AppDelegate.swift */; };
-		47C13BDD217E7C9C00C8512B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C13BDC217E7C9C00C8512B /* ViewController.swift */; };
 		47C13BE0217E7C9C00C8512B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47C13BDE217E7C9C00C8512B /* Main.storyboard */; };
 		47C13BE2217E7C9E00C8512B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47C13BE1217E7C9E00C8512B /* Assets.xcassets */; };
 		47C13BE5217E7C9E00C8512B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47C13BE3217E7C9E00C8512B /* LaunchScreen.storyboard */; };
+		47C13BF6217E7FCF00C8512B /* RecipeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C13BF5217E7FCF00C8512B /* RecipeController.swift */; };
+		47C13BF8217E805D00C8512B /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C13BF7217E805D00C8512B /* RecipeModel.swift */; };
+		47C13BFC217E85A000C8512B /* NetworkingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C13BFB217E85A000C8512B /* NetworkingError.swift */; };
+		47C13BFE217E8BB700C8512B /* NetworkingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C13BFD217E8BB700C8512B /* NetworkingController.swift */; };
+		47C13C00217E9F4300C8512B /* RecipeListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C13BFF217E9F4300C8512B /* RecipeListTableViewController.swift */; };
+		47C13C02217E9F8500C8512B /* RecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C13C01217E9F8500C8512B /* RecipeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4798A874217EDA67006ABCEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = RecipePuppyAPI_iOS22/UI/StoryBoard/Base.lproj/DetailStoryboard.storyboard; sourceTree = "<group>"; };
+		4798A876217EDC82006ABCEB /* RecipeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeExtension.swift; sourceTree = "<group>"; };
 		47C13BD7217E7C9C00C8512B /* RecipePuppyAPI_iOS22.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipePuppyAPI_iOS22.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47C13BDA217E7C9C00C8512B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		47C13BDC217E7C9C00C8512B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		47C13BDF217E7C9C00C8512B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		47C13BE1217E7C9E00C8512B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47C13BE4217E7C9E00C8512B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47C13BE6217E7C9E00C8512B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47C13BF5217E7FCF00C8512B /* RecipeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeController.swift; sourceTree = "<group>"; };
+		47C13BF7217E805D00C8512B /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
+		47C13BFB217E85A000C8512B /* NetworkingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingError.swift; sourceTree = "<group>"; };
+		47C13BFD217E8BB700C8512B /* NetworkingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingController.swift; sourceTree = "<group>"; };
+		47C13BFF217E9F4300C8512B /* RecipeListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListTableViewController.swift; sourceTree = "<group>"; };
+		47C13C01217E9F8500C8512B /* RecipeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +68,93 @@
 		47C13BD9217E7C9C00C8512B /* RecipePuppyAPI_iOS22 */ = {
 			isa = PBXGroup;
 			children = (
-				47C13BDA217E7C9C00C8512B /* AppDelegate.swift */,
-				47C13BDC217E7C9C00C8512B /* ViewController.swift */,
-				47C13BDE217E7C9C00C8512B /* Main.storyboard */,
-				47C13BE1217E7C9E00C8512B /* Assets.xcassets */,
-				47C13BE3217E7C9E00C8512B /* LaunchScreen.storyboard */,
-				47C13BE6217E7C9E00C8512B /* Info.plist */,
+				47C13BF2217E7CAF00C8512B /* Networking */,
+				47C13BF1217E7CAE00C8512B /* View */,
+				47C13BF0217E7CAB00C8512B /* ViewController */,
+				47C13BEF217E7CAA00C8512B /* ModelController */,
+				47C13BEE217E7CA800C8512B /* Model */,
+				47C13BED217E7CA600C8512B /* UI */,
+				47C13BEC217E7CA500C8512B /* resources */,
 			);
 			path = RecipePuppyAPI_iOS22;
+			sourceTree = "<group>";
+		};
+		47C13BEC217E7CA500C8512B /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				47C13BDA217E7C9C00C8512B /* AppDelegate.swift */,
+				47C13BE1217E7C9E00C8512B /* Assets.xcassets */,
+				47C13BE6217E7C9E00C8512B /* Info.plist */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		47C13BED217E7CA600C8512B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				47C13BF4217E7CC300C8512B /* StoryBoard */,
+				47C13BF3217E7CBB00C8512B /* Extension */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		47C13BEE217E7CA800C8512B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				47C13BF7217E805D00C8512B /* RecipeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		47C13BEF217E7CAA00C8512B /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+				47C13BFB217E85A000C8512B /* NetworkingError.swift */,
+				47C13BF5217E7FCF00C8512B /* RecipeController.swift */,
+			);
+			path = ModelController;
+			sourceTree = "<group>";
+		};
+		47C13BF0217E7CAB00C8512B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				47C13BFF217E9F4300C8512B /* RecipeListTableViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		47C13BF1217E7CAE00C8512B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				47C13C01217E9F8500C8512B /* RecipeTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		47C13BF2217E7CAF00C8512B /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				47C13BFD217E8BB700C8512B /* NetworkingController.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		47C13BF3217E7CBB00C8512B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4798A876217EDC82006ABCEB /* RecipeExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		47C13BF4217E7CC300C8512B /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				47C13BDE217E7C9C00C8512B /* Main.storyboard */,
+				4798A873217EDA67006ABCEB /* DetailStoryboard.storyboard */,
+				47C13BE3217E7C9E00C8512B /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +217,7 @@
 			files = (
 				47C13BE5217E7C9E00C8512B /* LaunchScreen.storyboard in Resources */,
 				47C13BE2217E7C9E00C8512B /* Assets.xcassets in Resources */,
+				4798A875217EDA67006ABCEB /* DetailStoryboard.storyboard in Resources */,
 				47C13BE0217E7C9C00C8512B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,14 +229,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47C13BDD217E7C9C00C8512B /* ViewController.swift in Sources */,
 				47C13BDB217E7C9C00C8512B /* AppDelegate.swift in Sources */,
+				47C13C00217E9F4300C8512B /* RecipeListTableViewController.swift in Sources */,
+				47C13BF6217E7FCF00C8512B /* RecipeController.swift in Sources */,
+				47C13C02217E9F8500C8512B /* RecipeTableViewCell.swift in Sources */,
+				47C13BFC217E85A000C8512B /* NetworkingError.swift in Sources */,
+				4798A877217EDC82006ABCEB /* RecipeExtension.swift in Sources */,
+				47C13BF8217E805D00C8512B /* RecipeModel.swift in Sources */,
+				47C13BFE217E8BB700C8512B /* NetworkingController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		4798A873217EDA67006ABCEB /* DetailStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4798A874217EDA67006ABCEB /* Base */,
+			);
+			name = DetailStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
 		47C13BDE217E7C9C00C8512B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,7 +392,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L7AYJDAX2C;
-				INFOPLIST_FILE = RecipePuppyAPI_iOS22/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RecipePuppyAPI_iOS22/resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +410,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L7AYJDAX2C;
-				INFOPLIST_FILE = RecipePuppyAPI_iOS22/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RecipePuppyAPI_iOS22/resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
